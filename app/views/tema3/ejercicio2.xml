@@ -1,0 +1,14 @@
+<Alloy>
+	<Window id="win">
+		<ScrollView class="container">
+			<Label class="header title black-ft" />
+			<TextArea id="textArea" />
+			<View class="buttonFileContainer">
+				<Button id="readFile" />
+				<Button id="writeFile" />
+			</View>
+			<Label class="header output black-ft" />
+			<Label id="fileContent" />
+		</ScrollView>
+	</Window>
+</Alloy>

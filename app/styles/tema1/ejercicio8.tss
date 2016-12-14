@@ -1,0 +1,30 @@
+"Window":{
+	title: "Tema 1: Ejercicio 8"
+},
+".gris":{
+	backgroundColor: "#E6E6E6"
+},
+".pagina":{
+	width: "90%",
+	height: "90%"
+},
+".marron":{
+	backgroundColor:"brown"
+},
+".verde": {
+	backgroundColor:"green"
+},
+
+"#imagen1":{
+	image:"/images/bender.jpg"
+},
+"#pie1":{
+	text: "Bender",
+	color:"black",
+	font:"24"
+},
+".view1":{
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE,
+	layout:"vertical"
+}

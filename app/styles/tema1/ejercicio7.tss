@@ -1,0 +1,38 @@
+"Window":{
+	title: "Tema 1: Ejercicio 7"
+},
+".container":{
+	layout: "horizontal",
+	horizontalWrap: false
+},
+".rojo":{
+	backgroundColor: "red"
+},
+".azul":{
+	backgroundColor: "blue"
+},
+".naranja":{
+	backgroundColor: "orange"
+},
+".verde":{
+	backgroundColor: "green"
+},
+".cuadrado":{
+	width: 200,
+	height: 200,
+	left: 15,
+	right: 15
+},
+".circulo":{
+	width: 250,
+	height: 250,
+	borderRadius: 125,
+	left: 15,
+	right: 15	
+},
+"ScrollView":{
+	scrollType: "horizontal",
+	
+},
+
+

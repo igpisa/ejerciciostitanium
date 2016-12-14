@@ -1,0 +1,28 @@
+"Window":{
+	title: "Tema 1: Ejercicio 6"
+},
+"ActionBar":{
+	//Mostramos el botón de home como una flecha
+	displayHomeAsUp: true,
+	onHomeIconItemSelected: "close"
+},
+//A partir de aquí debemos crear los estilos de nuestro action bar
+"#refreshItem":{
+  showAsAction: Titanium.Android.SHOW_AS_ACTION_ALWAYS,
+  icon: "/images/ic_refresh_white_24dp.png"
+},
+"#settingsItem":{
+  showAsAction: Titanium.Android.SHOW_AS_ACTION_ALWAYS,
+  icon: "/images/ic_settings_white_24dp.png"
+},
+"#moreItem":{
+  showAsAction: Titanium.Android.SHOW_AS_ACTION_NEVER,
+  title: "More..."
+},
+"#searchItem":{
+  showAsAction: Titanium.Android.SHOW_AS_ACTION_COLLAPSE_ACTION_VIEW,
+  title: "Search"
+},
+"#searchView":{
+  hintText:"Type Something"
+}

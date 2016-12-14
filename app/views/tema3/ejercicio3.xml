@@ -1,0 +1,19 @@
+<Alloy>
+	<Window id="win">
+		<ListView id="list">
+			<Templates>
+				<Require src="tema3/template" />
+			</Templates>
+			<ListSection id="section" />
+		</ListView>
+		<View id="loader">
+			<View class="containerBox white-bg">
+				<View class="loaderBox">
+					<ActivityIndicator id="activityIndicator" />
+					<View class="loaderSeparator" />
+					<Label class="message" />
+				</View>
+			</View>
+		</View>
+	</Window>
+</Alloy>

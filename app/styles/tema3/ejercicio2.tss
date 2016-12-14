@@ -1,0 +1,49 @@
+"Window":{
+	title: "Tema 3: Ejercicio 2"
+},
+"ScrollView":{
+	scrollType: "vertical"
+},
+".container":{
+	left: 16,
+	right: 16,
+	layout: "vertical"
+},
+".header":{
+	width: Titanium.UI.FILL,
+	height: 48,
+	font:{
+		fontSize: 18,
+		fontWeight: "bold"
+	}
+},
+".title":{
+	text: "Operaciones con ficheros"
+},
+"#textArea":{
+	width: Titanium.UI.FILL,
+	height: 250,
+	hintText: "Escribe un texto...",
+	hintTextColor: "#A6A6A6",
+	borderColor: "#E6E6E6",
+	borderRadius: 4,
+	color: "#363636"
+},
+".buttonFileContainer":{
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	layout: "horizontal"
+},
+"#readFile":{
+	width: "50%",
+	height: 48,
+	title: "Leer fichero"
+},
+"#writeFile":{
+	width: "50%",
+	height: 48,
+	title: "Escribir fichero"
+},
+".output":{
+	text: "Contenido del fichero:"
+}

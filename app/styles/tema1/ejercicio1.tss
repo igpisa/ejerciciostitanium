@@ -1,0 +1,44 @@
+"Window":{
+    title: "Tema 1: Ejercicio 1"
+},
+//Clase de posicionamiento al centro de la ventana
+".center":{
+    center: {
+        x: "50%",
+        y: "50%"
+    }
+},
+//Clase fondo rojo
+".red-bg":{
+    backgroundColor: "red"
+},
+//ID view1 con su tamaño
+"#view1":{
+    width: 50,
+    height: 50
+},
+".blue-bg":{
+	backgroundColor: "blue"
+}
+"#view3":{
+    width: 50,
+    height: 50,
+    center:{
+    	x: "50%",
+    	y: "20%"
+    }
+},
+
+".brown-bg":{
+	backgroundColor: "brown"
+},
+
+"#view2":{
+    width: "90%",
+    height: "20%",
+    center:{
+    	x: "50%",
+    	y: "20%"
+    }
+}
+

@@ -1,0 +1,11 @@
+<Alloy>
+    <Window id="win">
+        <!-- Vista posicionada al centro y con fondo rojo -->
+        <View id="view1" class="center red-bg" />
+        <View id="view2" class="center brown-bg" />
+        
+		<View id="view3" class="center blue-bg" />
+        
+        
+    </Window>
+</Alloy>

@@ -1,0 +1,15 @@
+<Alloy>
+	<Window id="win" class="container">
+		<ListView id="listview">
+			<Templates>
+				<Require src="templates/row" />
+			</Templates>
+			<ListSection id="listsection">
+				<ListItem itemId="ejercicio1" title:text="Ejercicio 1" subtitle:text="Formulario con funcionalidad" />
+				<ListItem itemId="ejercicio2" title:text="Ejercicio 2" subtitle:text="Menu inferior" />
+				<ListItem itemId="ejercicio3" title:text="Ejercicio 3" subtitle:text="Generador de perfiles" />
+				<ListItem itemId="ejercicio4" title:text="Ejercicio 4" subtitle:text="Lista" />
+			</ListSection>
+		</ListView>
+	</Window>
+</Alloy>

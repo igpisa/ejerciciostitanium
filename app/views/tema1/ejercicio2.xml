@@ -1,0 +1,11 @@
+<Alloy>
+	<Window id="win">
+		<!-- Campo de texto para el nombre -->
+		<TextField id="name" class="nombre" />
+		<TextField id="apellidos" class="nombre" />
+		<TextField id="email" class="nombre" />
+		<TextField id="telefono" class="nombre" />
+		<TextField id="mensaje" class="nombre" />
+		<Button id="boton"></Button>
+	</Window>
+</Alloy>

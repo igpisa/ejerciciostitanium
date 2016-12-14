@@ -1,0 +1,12 @@
+<Alloy>
+	<Window id="win" class="container">
+		<ListView id="listview">
+			<Templates>
+				<Require src="templates/row" />
+			</Templates>
+			<ListSection id="listsection">
+				<ListItem itemId="ejercicio1" title:text="Ejercicio 1" subtitle:text="Operaciones con base de datos" />
+			</ListSection>
+		</ListView>
+	</Window>
+</Alloy>

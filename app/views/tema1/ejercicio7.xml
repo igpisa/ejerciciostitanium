@@ -1,0 +1,15 @@
+<Alloy>
+	<Window id="win">
+		
+		<ScrollView  class="container">
+		<View class="cuadrado rojo" />
+		<View class="circulo rojo" />
+		<View class="cuadrado azul" />
+		<View class="circulo azul" />
+		<View class="cuadrado naranja" />
+		<View class="circulo naranja" />
+		<View class="cuadrado verde" />
+		<View class="circulo verde" />	
+		</ScrollView>	
+	</Window>
+</Alloy>

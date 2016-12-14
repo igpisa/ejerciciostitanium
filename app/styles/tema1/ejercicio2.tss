@@ -1,0 +1,57 @@
+"Window":{
+    title: "Tema 1: Ejercicio 2",
+    layout:"vertical"
+},
+"TextField":{
+	hintTextColor :"black",
+	borderColor: "black"
+},
+//Clase nombre con tamaño y color
+".nombre":{
+    width: 200,
+    height: Ti.UI.SIZE,
+    color: "gray"
+},
+"#name":{
+	hintText:"Escribe tu nombre",
+	//top:25,
+	center:{
+		x:"50%",
+		y: "20%"
+	}
+},
+"#apellidos":{
+	hintText:"Escribe tu apellidos",
+	//top:25,
+	center:{
+		x:"50%",
+		y: "35%"
+	}
+	},
+"#email":{
+	hintText:"Escribe tu email",
+	//top:25,
+	center:{
+		x:"50%",
+		y: "50%"
+	}
+},
+"#telefono":{
+	hintText:"Escribe tu teléfono",
+	//top:25,
+	center:{
+		x:"50%",
+		y: "65%"
+	}
+},
+"#mensaje":{
+	hintText:"Escribe tu mensaje",
+	//top:25,
+	center:{
+		x:"50%",
+		y: "80%"
+	}
+},
+"#boton":{
+	title: "Enviar"
+}

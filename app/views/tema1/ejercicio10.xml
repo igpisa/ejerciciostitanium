@@ -1,0 +1,11 @@
+<Alloy>
+	<Window id="win">
+		<ListView>
+			<SearchView id="searchBar" ns="Ti.UI.Android" platform="android"/>
+			<!-- Declaración de plantillas <Templates> -->
+			<!-- Declaración de plantillas <ItemTemplate> -->
+			<!-- Declaración de secciones <ListSection> -->
+			<!-- Declaración de items <ListItem> -->
+		</ListView>
+	</Window>
+</Alloy>

@@ -1,0 +1,23 @@
+"Window":{
+    title: "Tema 1: Ejercicio 3"
+},
+//Etiqueta nombre
+".nombre":{
+    left: 40,
+    width: 200,
+    height: Ti.UI.SIZE,
+    color: "black",
+    text: "Nombre:",
+    font:{
+        fontSize: 18
+    }
+},
+//ID del campo de texto nombre
+"#nombre":{
+    left: 120,
+    width: 200,
+    height: Ti.UI.SIZE,
+    color: "black",
+    hintText: "Escribe tu nombre...",
+    hintTextColor: "gray"
+}

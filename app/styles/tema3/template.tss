@@ -1,0 +1,12 @@
+"ItemTemplate":{
+	width: Ti.UI.FILL,
+	height: 48
+},
+".foto":{
+	left: 24
+},
+".nombre":{
+	font:{
+		fontSize: 16 
+	}
+}

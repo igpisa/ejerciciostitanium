@@ -1,0 +1,6 @@
+<Alloy>
+    <ItemTemplate name="row">
+		<Label bindId="title" class="title" />
+		<Label bindId="subtitle" class="subtitle" />
+	</ItemTemplate>
+</Alloy>

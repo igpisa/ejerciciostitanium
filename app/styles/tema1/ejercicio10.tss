@@ -1,0 +1,28 @@
+"Window":{
+	title: "Tema 1: Ejercicio 10"
+},
+"ListView":{
+	//Establecemos el color del separador de filas
+	separatorColor: "black"
+},
+"ListItem":{
+	//Establecemos tamaño de una fila
+	width: Ti.UI.FILL,
+	height: 48,
+	//Icono por defecto
+	accessoryType: Titanium.UI.LIST_ACCESSORY_TYPE_NONE,
+	//Margen izquierdo
+	left: 0,
+	//Atributos de fuente
+	font: {
+		fontSize: 16
+	},
+	color: "black"
+},
+//Barra de búsqueda asociada a la lista
+"#searchBar":{
+	backgroundColor: "#363636",
+	hintText: "Búsqueda",
+	color: "black",
+	iconified: false
+}

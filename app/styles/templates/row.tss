@@ -1,0 +1,20 @@
+"ItemTemplate":{
+    width: Ti.UI.FILL,
+    height: 48
+},
+".title":{
+    top: 8,
+    left: 16,
+    font:{
+        fontSize: 16
+    },
+    color: "black"
+},
+".subtitle":{
+    top: 24,
+    left: 16,
+    font:{
+        fontSize: 14
+    },
+    color: "#A6A6A6"
+}

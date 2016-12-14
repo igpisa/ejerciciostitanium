@@ -1,0 +1,6 @@
+"Window":{
+    title: "Tema 4: Ejercicios"
+},
+"ListItem":{
+    template: "row"
+}

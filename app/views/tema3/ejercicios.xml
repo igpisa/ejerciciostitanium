@@ -1,0 +1,14 @@
+<Alloy>
+	<Window id="win" class="container">
+		<ListView id="listview">
+			<Templates>
+				<Require src="templates/row" />
+			</Templates>
+			<ListSection id="listsection">
+				<ListItem itemId="ejercicio1" title:text="Ejercicio 1" subtitle:text="Properties" />
+				<ListItem itemId="ejercicio2" title:text="Ejercicio 2" subtitle:text="Ficheros" />
+				<ListItem itemId="ejercicio3" title:text="Ejercicio 3" subtitle:text="HTTP Client" />
+			</ListSection>
+		</ListView>
+	</Window>
+</Alloy>

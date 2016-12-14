@@ -1,0 +1,53 @@
+<Alloy>
+	<Window id="win">
+		<ScrollView>
+			<Label class="header black-ft" />
+			<!-- FILA DE USUARIO -->
+			<View id="usernameRow" class="row">
+				<View class="row-container">
+					<Label class="username title black-ft" />
+					<Label id="username" class="subtitle gray-ft" />
+				</View>
+			</View>
+			<!-- FIN FILA DE USUARIO -->
+			<View class="divider" />
+			<!-- FILA DE PASSWORD -->
+			<View id="passwordRow" class="row">
+				<View class="row-container">
+					<Label class="password title black-ft" />
+					<Label id="password" class="subtitle gray-ft" />
+				</View>
+			</View>
+			<!-- FIN FILA DE PASSWORD -->
+			<View class="divider" />
+			<!-- FILA DE NOTIFICACIONES -->
+			<View class="row">
+				<Label class="notifications title black-ft" />
+				<Switch id="notifications" />
+			</View>
+			<!-- FIN FILA DE NOTIFICACIONES -->
+		</ScrollView>
+		<!-- DIALOGO CAMBIO DE USUARIO -->
+		<AlertDialog id="editUsername">
+			<View platform="android">
+				<TextField id="usernameField" />
+			</View>
+			<ButtonNames>
+				<ButtonName>Aceptar</ButtonName>
+				<ButtonName>Cancelar</ButtonName>
+			</ButtonNames>
+		</AlertDialog>
+		<!-- FIN DIALOGO CAMBIO DE USUARIO -->
+		<!-- DIALOGO CAMBIO DE PASSWORD -->
+		<AlertDialog id="editPassword">
+			<View platform="android">
+				<TextField id="passwordField" />
+			</View>
+			<ButtonNames>
+				<ButtonName>Aceptar</ButtonName>
+				<ButtonName>Cancelar</ButtonName>
+			</ButtonNames>
+		</AlertDialog>
+		<!-- FIN DIALOGO CAMBIO DE PASSWORD -->
+	</Window>
+</Alloy>

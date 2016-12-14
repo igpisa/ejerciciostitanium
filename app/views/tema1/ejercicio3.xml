@@ -1,0 +1,8 @@
+<Alloy>
+	<Window id="win">
+		<!-- Etiqueta Nombre asociada al campo -->
+		<Label class="nombre" />
+		<!-- Campo de texto nombre -->
+		<TextField id="nombre" />
+	</Window>
+</Alloy>

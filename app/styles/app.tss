@@ -1,0 +1,26 @@
+"Window":{
+	backgroundColor: "#FFF"
+},
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+},
+"ListView":{
+	//Establecemos el color del separador de filas
+	separatorColor: "#E6E6E6"
+},
+"ListItem":{
+	//Establecemos tamaño de una fila
+	width: Ti.UI.FILL,
+	height: 48,
+	//Icono por defecto
+	accessoryType: Titanium.UI.LIST_ACCESSORY_TYPE_DISCLOSURE,
+	//Margen izquierdo
+	left: 16,
+	//Atributos de fuente
+	font: {
+		fontSize: 16
+	},
+	color: "black"
+}

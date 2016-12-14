@@ -1,0 +1,11 @@
+"Window":{
+    title: "Tema 1: Ejercicio 4"
+},
+".bottom":{
+    bottom: 0
+},
+".menu":{
+    width: 50,
+    height: 48,
+    backgroundColor: "#363636"
+}

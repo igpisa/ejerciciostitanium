@@ -1,0 +1,56 @@
+//Elementos de UI
+"Window":{
+    title: "Tema 2: Ejercicio 2"
+},
+"Label":{
+    font: {
+        fontSize: 18,
+        fontWeight: "bold"
+    },
+    color: "white"
+},
+//Contenedor principal de vistas
+"#container":{
+	width: Titanium.UI.FILL,
+	top: 0,
+	bottom: 48,
+	backgroundColor: "#e6e6e6"
+},
+//Color de fuentes
+".black-ft":{
+	color: "#363636"
+},
+//Posicionador inferior
+".bottom":{
+    bottom: 0
+},
+//Contenedor de menú
+".menu":{
+    width: Ti.UI.FILL,
+    height: 48,
+    backgroundColor: "#363636",
+    layout: "horizontal",
+    horizontalWrap: false
+},
+//Menu Item
+".menuItem":{
+    width: "25%",
+    height: Ti.UI.FILL
+},
+//Clase menu activo
+".menuItemActivo":{
+	color: "orange"
+},
+//Etiquetas
+".inicio":{
+    text: "Inicio"
+},
+".fotos":{
+    text: "Fotos"
+},
+".mensajes":{
+    text: "Mensajes"
+},
+".perfil":{
+    text: "Perfil"
+}

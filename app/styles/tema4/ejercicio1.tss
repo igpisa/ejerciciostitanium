@@ -1,0 +1,121 @@
+"Window":{
+	title: "Tema 4: Ejercicio 1",
+	backgroundColor: Alloy.CFG.blanco
+},
+"ListView":{
+	top: 0,
+	bottom: 48,
+	left: 16,
+	right: 16
+},
+"ListItem":{
+	width: Titanium.UI.FILL,
+	height: 48,
+	color: "black",
+	accessoryType: Titanium.UI.LIST_ACCESSORY_TYPE_NONE
+},
+"TextField":{
+	bottom: 5,
+	width: "80%",
+	height: Titanium.UI.SIZE,
+	borderColor: Alloy.CFG.gris,
+	color: Alloy.CFG.negro
+},
+"TextArea":{
+	width: "80%",
+	height: 150,
+	borderColor: Alloy.CFG.gris,
+	color: Alloy.CFG.negro
+},
+".menu":{
+	width: Titanium.UI.FILL,
+	height: 48
+}
+".menuInferior":{
+	bottom: 0,
+	backgroundColor: Alloy.CFG.verde
+},
+".menuItem":{
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.FILL,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	font: {
+		fontSize: 18,
+		fontWeight: "bold"
+	},
+	color: Alloy.CFG.blanco
+},
+"#actualizarLista":{
+	text: "ACTUALIZAR LISTA"
+},
+"#nuevaPelicula":{
+	text: "AÑADIR PELICULA"
+},
+"#editor":{
+	zIndex: 9999,
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.FILL,
+	backgroundColor: "#88000000",
+	visible: false
+},
+".form":{
+	width: "80%",
+	height: Titanium.UI.SIZE,
+	backgroundColor: Alloy.CFG.blanco,
+	layout: "vertical"
+},
+".fields":{
+	top: 32,
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	layout: "vertical"
+},
+".fieldLabel":{
+	width: "80%",
+	height: Titanium.UI.SIZE,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT
+}
+".titulo":{
+	text: "Título:"
+},
+".genero":{
+	text: "Género:"
+},
+".año":{
+	text: "Año:"
+},
+".sinopsis":{
+	text: "Sinopsis:"
+},
+"#año":{
+	keyboardType: Ti.UI.KEYBOARD_TYPE_NUMBER_PAD
+},
+".buttons":{
+	top: 32,
+	bottom: 32,
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	layout: "horizontal",
+	horizontalWrap: false
+},
+".button":{
+	width: "33.33%",
+	height: Titanium.UI.FILL,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	font: {
+		fontSize: 18,
+		fontWeight: "bold"
+	}
+},
+"#cancelar":{
+	text: "CANCELAR",
+	color: Alloy.CFG.negro
+},
+"#guardar":{
+	text: "GUARDAR",
+	color: Alloy.CFG.azul
+},
+"#eliminar":{
+	text: "ELIMINAR",
+	color: Alloy.CFG.rojo
+},

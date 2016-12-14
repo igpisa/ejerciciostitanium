@@ -1,0 +1,31 @@
+<Alloy>
+	<Window id="win">
+		<ListView id="list">
+			<ListSection id="section">
+				<ListItem title="Base de datos no cargada." />
+			</ListSection>
+		</ListView>
+		<View class="menu menuInferior">
+			<Label id="nuevaPelicula" class="menuItem" />
+		</View>
+		<View id="editor">
+			<View class="form">
+				<View class="fields">
+					<Label class="fieldLabel titulo" />
+					<TextField id="titulo" />
+					<Label class="fieldLabel genero" />
+					<TextField id="genero" />
+					<Label class="fieldLabel año" />
+					<TextField id="año" />
+					<Label class="fieldLabel sinopsis" />
+					<TextArea id="sinopsis" />
+				</View>
+				<View class="buttons">
+					<Label id="guardar" class="button" />
+					<Label id="eliminar" class="button" />
+					<Label id="cancelar" class="button" />
+				</View>
+			</View>
+		</View>
+	</Window>
+</Alloy>

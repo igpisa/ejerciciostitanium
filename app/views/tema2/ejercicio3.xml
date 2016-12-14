@@ -1,0 +1,10 @@
+<Alloy>
+	<Window id="win">
+		<!-- Añadir ImageView -->
+		<ImageView id="image"></ImageView>
+		<!-- Añadir Label -->
+		<Label id="label"></Label>
+		<!-- Añadir botón generar -->
+		<Button id="generar"></Button>
+	</Window>
+</Alloy>

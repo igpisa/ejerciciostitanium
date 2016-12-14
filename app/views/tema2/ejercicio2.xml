@@ -1,0 +1,26 @@
+<Alloy>
+	<Window id="win">
+		<!-- Vista contenedora de las vistas que se añaden y se eliminan -->
+		<View id="container">
+			<Label class="inicio black-ft" />
+		</View>
+		<!-- Vista contenedora del menú -->
+		<View class="menu bottom">
+			<!-- Creamos contenedores para cada item -->
+			<View class="menuItem">
+				<!-- Creamos etiqueta para cada item -->
+				<!-- Vista inicial, menuItemActivo -->
+				<Label id="inicio" class="inicio menuItemActivo" />
+			</View>
+			<View class="menuItem">
+				<Label id="fotos" class="fotos" />
+			</View>
+			<View class="menuItem">
+				<Label id="mensajes" class="mensajes" />
+			</View>
+			<View class="menuItem">
+				<Label id="perfil" class="perfil" />
+			</View>									
+		</View>
+	</Window>
+</Alloy>

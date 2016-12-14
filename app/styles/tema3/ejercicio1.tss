@@ -1,0 +1,87 @@
+"Window":{
+	title: "Tema 3: Ejercicio 1"
+},
+"ScrollView":{
+	scrollType: "vertical",
+	layout: "vertical"
+},
+"TextField":{
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	left: 16,
+	right: 16
+},
+".header":{
+	left: 16,
+	right: 16,
+	width: Titanium.UI.FILL,
+	height: 48,
+	text: "Ajustes",
+	font:{
+		fontSize: 18,
+		fontWeight: "bold"
+	}
+},
+".divider":{
+	width: Titanium.UI.FILL,
+	height: 1,
+	backgroundColor: "#E6E6E6"
+},
+".row":{
+	width: Titanium.UI.FILL,
+	height: 56,
+	left: 16,
+	right: 16
+},
+".row-container":{
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	layout: "vertical"
+},
+".title":{
+	left: 0,
+	font: {
+		fontSize: 16
+	}
+},
+".subtitle":{
+	left: 0,
+	font: {
+		fontSize: 14
+	}
+},
+".username":{
+	text: "Usuario"
+},
+"#username":{
+	text: "Introducir usuario"
+},
+".password":{
+	text: "Contraseña"
+},
+"#password":{
+	text: "Introducir contraseña"
+},
+".notifications":{
+	text: "Recibir notificaciones"
+},
+"#notifications":{
+	right: 0,
+	value: false
+},
+"#editUsername":{
+	title: "Usuario",
+	message: "Introduce nombre de usuario",
+	cancel: 1
+},
+"#editPassword":{
+	title: "Password",
+	message: "Introduce tu contraseña",
+	cancel: 1
+},
+"#usernameField":{
+	
+},
+"#passwordField":{
+	passwordMask: true	
+}

@@ -1,0 +1,32 @@
+<Alloy>
+	<Window id="win">
+		
+		<ScrollableView id="scrollableView" showPagingControl='true'>
+			<View class="pagina gris">
+				<View class="view1">
+					<ImageView id="imagen1"></ImageView>
+					<Label id="pie1"></Label>
+					</View>
+			
+			</View>
+			<View class="pagina marron">
+				<View class="view1">
+					<ImageView id="imagen1"></ImageView>
+					<Label id="pie1"></Label>
+			</View>
+			</View>
+			<View class="pagina verde">
+				<View class="view1">
+					<ImageView id="imagen1"></ImageView>
+					<Label id="pie1"></Label>
+					</View>
+			
+			</View>
+			
+				
+			
+		</ScrollableView>
+		<!-- Esto podría ser un ejemplo de página -->
+		
+	</Window>
+</Alloy>

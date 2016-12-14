@@ -1,0 +1,12 @@
+<Alloy>
+	<Window id="win" class="container">
+		<ListView id="listview">
+			<ListSection id="listsection">
+				<ListItem itemId="tema1" title="Tema 1: Interfaz de usuario" />
+				<ListItem itemId="tema2" title="Tema 2: Alloy MVC Framework" />
+				<ListItem itemId="tema3" title="Tema 3: Trabajando con datos" />
+				<ListItem itemId="tema4" title="Tema 4: Bases de datos" />
+			</ListSection>
+		</ListView>
+	</Window>
+</Alloy>

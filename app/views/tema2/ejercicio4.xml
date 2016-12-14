@@ -1,0 +1,14 @@
+<Alloy>
+	<Window id="win">
+		<ListView>
+			<Templates>
+				<ItemTemplate name="user">
+					<!-- Implementar item template -->
+				</ItemTemplate>
+			</Templates>
+			<ListSection>
+				<ListItem title="Primer elemento..." />
+			</ListSection>
+		</ListView>
+	</Window>
+</Alloy>

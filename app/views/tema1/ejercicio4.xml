@@ -1,0 +1,8 @@
+<Alloy>
+	<Window id="win">
+		<!-- Vista contenedora del menú -->
+		<View class="menu bottom">
+
+		</View>
+	</Window>
+</Alloy>

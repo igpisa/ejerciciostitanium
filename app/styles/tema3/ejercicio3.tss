@@ -1,0 +1,32 @@
+"Window":{
+	title: "Tema 3: Ejercicio 3"
+},
+"#loader":{
+	height: 0,
+	zIndex: 9999,
+	backgroundColor: "#88000000"
+},
+".containerBox":{
+	width: "60%",
+	height: "50%"
+},
+".loaderBox":{
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE,
+	layout: "vertical"
+},
+".loaderSeparator":{
+	width: Titanium.UI.FILL,
+	height: 16
+},
+"#activityIndicator":{
+	style: Titanium.UI.ActivityIndicatorStyle.BIG
+},
+".message":{
+	font: {
+		fontSize: 26,
+		fontWeight: "bold"
+	},
+	color: "#363636",
+	text: "Cargando"
+}
